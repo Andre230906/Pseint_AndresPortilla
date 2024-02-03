@@ -1,0 +1,15 @@
+Algoritmo CALCULARFACTORIAL
+	Definir A,F como Real
+	F<-1
+	Escribir "ingrese un numero"
+	leer A
+	Si A<0 entonces 
+		Escribir "el factorial no es posible de resolver"
+	SiNo
+	FinSi
+	
+	para i<-1 hasta A con paso 1
+		F<-F*i
+	FinPara
+	escribir "el factorial del numero ",A " es ",F
+FinAlgoritmo

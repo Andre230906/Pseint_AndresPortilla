@@ -1,0 +1,10 @@
+Algoritmo sumadosnumeros
+	definir A,B,C como real
+	Escribir "ingrese primer digito"
+	Leer A
+	Escribir "ingrese segundo digito"
+	Leer B
+	C=A+B
+	Escribir "La suma de ",A " Y ", B " es igual a ", C 
+	
+FinAlgoritmo

@@ -1,0 +1,13 @@
+Algoritmo ParOImpar
+	Definir A como Entero
+    
+    Escribir "Ingrese un n�mero para verificar si es par o impar:"
+    Leer A
+    
+    Si A  MOD 2 = 0 ENTONCES
+        Escribir A, " es un n�mero par"
+    Sino
+        Escribir A, " es un n�mero impar"
+    Fin Si
+
+FinAlgoritmo

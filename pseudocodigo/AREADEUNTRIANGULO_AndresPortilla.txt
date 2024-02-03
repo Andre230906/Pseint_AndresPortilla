@@ -1,0 +1,10 @@
+Algoritmo AREADEUNTRIANGULO
+	Definir B,H,A  como real
+	Escribir " ingrese base del triangulo"
+	Leer B
+	Escribir " ingrese altura del triangulo"
+	Leer H
+	A=(B*H)/2
+	Escribir " Area de un triangulo de base ",B " altura ",H " es igual a ",A
+	
+FinAlgoritmo

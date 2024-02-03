@@ -1,0 +1,148 @@
+Algoritmo TiendaVirtualZapatos
+	Definir modelo, color, continuar, finalizarCompra Como Cadena
+	Definir precio, totalCompra, C ,talla Como Real
+	finalizarCompra <- ''
+	totalCompra <- 0
+	Escribir 'Bienvenido a la Tienda Virtual de Zapatos'
+	Escribir '1. Seleccionar talla "
+	Seg�n talla Hacer
+'40":Leer talla
+	
+		Escribir '2. Seleccionar color'
+		Leer color
+		Escribir '3. Seleccionar modelo (Velez, Fila, Nike, Gucci)'
+		Seg�n modelo Hacer
+	'Velez':
+		precio <- 50.0
+	'Fila':
+		precio <- 60.0
+	'Nike':
+		precio <- 80.0
+	'Gucci':
+		precio <- 120.0
+	De Otro Modo:
+		precio <- 0.0
+FinSeg�n
+Escribir 'Total a pagar: ', totalCompra
+
+Escribir '�Desea finalizar la compra? (S�/No)'
+Leer finalizarCompra
+Si Minusculas(finalizarCompra)='si' Entonces
+	Escribir '�Gracias por su compra! Su pedido ser� enviado pronto.'
+SiNo
+	Escribir 'Esperamos verlo de nuevo pronto. �Hasta luego!'
+FinSi	
+
+		'41': Leer talla
+				Escribir '2. Seleccionar color'
+				Leer color
+				Escribir '3. Seleccionar modelo (Velez, Fila, Nike, Gucci)'
+				Seg�n modelo Hacer
+			'Velez':
+				precio <- 50.0
+			'Fila':
+				precio <- 60.0
+			'Nike':
+				precio <- 80.0
+			'Gucci':
+				precio <- 120.0
+			De Otro Modo:
+				precio <- 0.0
+		FinSeg�n
+		Escribir 'Total a pagar: ', totalCompra
+		
+		Escribir '�Desea finalizar la compra? (S�/No)'
+		Leer finalizarCompra
+		Si Minusculas(finalizarCompra)='si' Entonces
+			Escribir '�Gracias por su compra! Su pedido ser� enviado pronto.'
+		SiNo
+			Escribir 'Esperamos verlo de nuevo pronto. �Hasta luego!'
+		FinSi	
+	
+	
+
+		'42':Leer talla
+				Escribir '2. Seleccionar color'
+				Leer color
+				Escribir '3. Seleccionar modelo (Velez, Fila, Nike, Gucci)'
+				Seg�n modelo Hacer
+			'Velez':
+				precio <- 50.0
+			'Fila':
+				precio <- 60.0
+			'Nike':
+				precio <- 80.0
+			'Gucci':
+				precio <- 120.0
+			De Otro Modo:
+				precio <- 0.0
+		FinSeg�n
+		Escribir 'Total a pagar: ', totalCompra
+		
+		Escribir '�Desea finalizar la compra? (S�/No)'
+		Leer finalizarCompra
+		Si Minusculas(finalizarCompra)='si' Entonces
+			Escribir '�Gracias por su compra! Su pedido ser� enviado pronto.'
+		SiNo
+			Escribir 'Esperamos verlo de nuevo pronto. �Hasta luego!'
+		FinSi	
+	
+	
+
+		'43':Leer talla
+			
+				Escribir '2. Seleccionar color'
+				Leer color
+				Escribir '3. Seleccionar modelo (Velez, Fila, Nike, Gucci)'
+				Seg�n modelo Hacer
+			'Velez':
+				precio <- 50.0
+			'Fila':
+				precio <- 60.0
+			'Nike':
+				precio <- 80.0
+			'Gucci':
+				precio <- 120.0
+			De Otro Modo:
+				precio <- 0.0
+		FinSeg�n
+		Escribir 'Total a pagar: ', totalCompra
+		
+		Escribir '�Desea finalizar la compra? (S�/No)'
+		Leer finalizarCompra
+		Si Minusculas(finalizarCompra)='si' Entonces
+			Escribir '�Gracias por su compra! Su pedido ser� enviado pronto.'
+		SiNo
+			Escribir 'Esperamos verlo de nuevo pronto. �Hasta luego!'
+		FinSi	
+	
+		'44':Leer talla
+				Escribir '2. Seleccionar color'
+				Leer color
+				Escribir '3. Seleccionar modelo (Velez, Fila, Nike, Gucci)'
+				Seg�n modelo Hacer
+			'Velez':
+				precio <- 50.0
+			'Fila':
+				precio <- 60.0
+			'Nike':
+				precio <- 80.0
+			'Gucci':
+				precio <- 120.0
+			De Otro Modo:
+				precio <- 0.0
+		FinSeg�n
+		Escribir 'Total a pagar: ', totalCompra
+		
+		Escribir '�Desea finalizar la compra? (S�/No)'
+		Leer finalizarCompra
+		Si Minusculas(finalizarCompra)='si' Entonces
+			Escribir '�Gracias por su compra! Su pedido ser� enviado pronto.'
+		SiNo
+			Escribir 'Esperamos verlo de nuevo pronto. �Hasta luego!'
+	FinSi	
+			
+			
+	FinSeg�n
+	
+FinAlgoritmo

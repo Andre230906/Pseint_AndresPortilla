@@ -1,0 +1,16 @@
+Algoritmo seriefabiolo
+	Definir N,A,B,C como entero 
+	Escribir " ingrese cuantos terminos desea de la serie fibonacci"
+	Leer N
+	A=0
+	B=1
+	Escribir A 
+	Escribir B
+	Para i desde 3 hasta N hacer 
+		C=A+B
+		Escribir C
+		A=B
+		B=C
+	FinPara
+	
+FinAlgoritmo

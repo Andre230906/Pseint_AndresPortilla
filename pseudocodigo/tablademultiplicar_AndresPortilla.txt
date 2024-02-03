@@ -1,0 +1,14 @@
+Algoritmo tablademultiplicar
+	Definir multiplicando,limite,resultado como entero
+	Escribir "ingrese el numero por el cual desea multiplicar"
+	leer multiplicando
+	Escribir "ingrese el numero  hasta el cual desee que lleve la tabla de multiplicar"
+	Leer limite 
+	resultado=0
+	Escribir " tabla de multiplicacion de: ", multiplicando
+	Para i desde 0 hasta limite Hacer
+		resultado=multiplicando * i 
+		Escribir multiplicando, "x",i,"=",resultado
+		
+	FinPara
+FinAlgoritmo

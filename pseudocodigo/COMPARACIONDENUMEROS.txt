@@ -1,0 +1,41 @@
+Algoritmo COMPARACIONDENUMEROS
+	Definir numero1, numero2, numero3 como Real
+    
+    Escribir "Ingrese el primer n�mero:"
+    Leer A
+    
+    Escribir "Ingrese el segundo n�mero:"
+    Leer B
+    
+    Escribir "Ingrese el tercer n�mero:"
+    Leer C
+	
+	Si A=B  Entonces
+		Escribir "Los dos primeros numeros son iguales asi que no se puede determinar el mayor"
+    sino
+	FinSi
+	Si C=B  Entonces
+		Escribir "Los numeros son iguales asi que no se puede determinar el mayor"
+    sino
+	FinSi
+	Si A=C  Entonces
+		Escribir "Los numeros son iguales asi que no se puede determinar el mayor"
+    sino
+	FinSi
+	Si A=B Y A=C Y C=B Entonces
+		Escribir "Los numeros son iguales asi que no se puede determinar el mayor"
+    sino
+	FinSi
+    Si A > B y A > B Entonces
+	Escribir "El n�mero mayor es:", A
+	Finsi 
+    
+	Si B > A y B > C Entonces
+		Escribir "El n�mero mayor es:", B
+		Finsi
+		
+	Si C > A y C > B Entonces
+	Escribir "El n�mero mayor es:", C  
+				
+	Fin Si
+FinAlgoritmo

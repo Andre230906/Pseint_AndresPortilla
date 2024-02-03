@@ -1,0 +1,177 @@
+Algoritmo para sumar dos numeros
+Inicio
+Variable tipo “ números “
+Ingresar los dos números que deseas sumar
+Leer numero1
+Leer numero2
+numero1=A
+numero2=B
+Realizar suma
+suma = C
+A+B= C
+Escribe "La suma es:", (suma)
+Fin
+
+
+
+Algoritmo para encontrar el mayor de 3 numeros
+Inicio
+Variable tipo números
+Ingresar los tres números
+Lee numero1
+Lee numero2
+Lee numero3
+numero1=A
+numero2=B
+numero3=C
+Si A>B comparar A con C
+si A>C, entonces IMPRIMIR “numero1, es el numero mayor”,
+fin si
+FIN SI
+
+Si B>A comparar B con C
+si B>C, entonces IMPRIMIR “numero2, es el numero mayor”,
+fin si
+FIN SI
+Si C>A comparar C con B
+si B>C, entonces IMPRIMIR “numero3, es el numero mayor”,
+fin si
+FIN SI
+FIN
+
+
+
+Algoritmo para calcular el factorial de un número
+Inicio
+Ingresa el número para el cual deseas calcular el factorial
+Leer n1
+n1=A
+si A<0 entonces imprimir “ El factorial no es posible de resolver”
+fin si
+si A=0 entonces imprimir “El valor del factorial: “,A “ es igual a 1”
+fin si
+iniciar factorial = 1
+Determina todos los números naturales menores o iguales a A, sin repetirlos
+Para cada número natural i desde 1 hasta A, haz:
+Multiplicar los números obtenidos uno a uno en orden ascendente
+factorial = factorial * i
+Fin Para
+Escribe "El factorial de", A, "es:", factorial
+
+
+
+Algoritmo para determinar si un número es primo
+Inicio:
+ingresar el numero que quieres determinar si es primo
+Leer numero
+numero= A
+Iniciar una variable para contar los divisores
+divisores = 0
+i= todos los números naturales menores o iguales a A
+dividir A por cada uno de los números que represente i de manera individual
+determinar por cuantos números representados por i, se divido A de manera entera
+Si A se dividio de manera entera por 3 o mas numeros
+imprimir “El numero: “,A “ no es primo”
+Si A se dividio de manera entera por solo 2 números
+imprimir “El numero: “,A “ no es primo”
+Fin Si
+Fin
+
+Algoritmo para convertir de grados celsius a fahrenheit
+Inicio
+Ingresar la temperatura en grados Celsius
+Leer celsius
+celsius=A
+Fahrenheit= B
+B= (A * 9/5) + 32
+imprimir A, " grados Celsius es igual a ",B, " grados Fahrenheit"
+Fin
+Algoritmo para determinar si un número es par o impar
+inicio
+Ingresar el número que quieres verificar
+Leer numero
+número=A
+Si A es divisible entre 2, entonces determinar si el residuo de la división es igual a 0
+Si es asi Escribe A, " es un número par"
+Sino
+Escribe A, " es un número impar"
+Fin Si
+Fin para
+Fin
+
+
+Algoritmo para determinar el área de un triángulo
+Inicio
+Ingresa la base del triángulo
+Leer base
+ingresar la altura del triángulo
+Leer altura
+base=A
+altura=B
+area=C
+C = (A*B) / 2
+Escribe "El área del triángulo es:", area
+Fin
+
+
+Algoritmo para generar la serie fibonacci
+Inicio
+Escribir "Ingrese cuántos términos desea en la serie de Fibonacci:"
+Leer n1
+a = 0
+b = 1
+Escribir "Los primeros dos términos de la serie de Fibonacci son:"
+Escribir:”, a
+Escribir:,” b
+
+Para indicado desde 3 hasta n1, haz:
+c = a + b
+Escribir:”, c
+// Actualiza las variables para el siguiente cálculo
+a = b
+b = c
+Fin Para
+Fin
+
+
+Algoritmo para realizar una tabla de multiplicar
+Inicio
+Escribir “ ingrese numero por el cual desee multiplicar”
+Leer “A”
+Escribir “ ingrese el número hasta el cual desee que llegue la tabla de multiplicar”
+Leer n1
+N=0
+C= Ax0
+Escribir Tabla de multiplicación de:”,A
+Escribir A,”x0=:”,C
+D= Ax(N+1)
+Caso 1 = Si la sucesión llega al valor donde (N+1)=n1 Entonces Romper sucesión
+Escribir A”x:”,(N+1)”=:”,D HASTA LLEGAR AL CASO 1
+Fin
+
+
+Algoritmo para determinar el área de un circulo
+Inicio
+Ingrese el diámetro del círculo
+Leer A
+Radio=B
+B=A/2
+π=3.1416
+Área= π*(B*B)
+Área=C
+escribir “El radio del círculo es:”,B”por ende su área es:”,C
+Fin
+
+
+Algoritmo para calcular el promedio de una lista de números
+Inicio
+Escribir “ Ingrese la lista de números separados por comas”
+Leer A
+Ordenar los números de A de menor mayor repitiendo los números iguales
+Leer B
+Contar cuántos números hay en B
+Leer C
+Sumar los números de B en orden ascendente de manera sucesiva
+Leer D
+Z=D/C
+Escribir “ El promedio de la lista de números es igual a:,”Z

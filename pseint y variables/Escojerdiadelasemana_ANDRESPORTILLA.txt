@@ -1,0 +1,32 @@
+Algoritmo Escojerdiadelasemana
+	Definir numero como entero 
+	Escribir "Bienvenido, oprime 0 para continuar"
+	Si numero = 0 entonces 
+		escribir "Para escojer el dia de la semana en que te encuentras digita el numero correspondiente"
+		escribir " Domingo<-1 " " Lunes<-2 " " Martes<-3 " " Miercoles<-4 " " Jueves<-5 " " Viernes<-6 " " Sabado<-7 "
+		Leer numero
+		
+		
+	FinSi
+	Si numero = 1 entonces 
+		escribir "Muchas gracias, se ha almacenado en la base de datos que hoy es domingo"
+	FinSi
+	Si numero = 2 entonces 
+		escribir "Muchas gracias, se ha almacenado en la base de datos que hoy es lunes"
+	FinSi
+	Si numero = 3 entonces 
+		escribir "Muchas gracias, se ha almacenado en la base de datos que hoy es martes"
+	FinSi
+	Si numero = 4 entonces 
+		escribir "Muchas gracias, se ha almacenado en la base de datos que hoy es miercoles"
+	FinSi
+	Si numero = 5 entonces 
+		escribir "Muchas gracias, se ha almacenado en la base de datos que hoy es jueves"
+	FinSi
+	Si numero = 6 entonces 
+		escribir "Muchas gracias, se ha almacenado en la base de datos que hoy es viernes"
+	FinSi
+	Si numero = 7 entonces 
+		escribir "Muchas gracias, se ha almacenado en la base de datos que hoy es sabado"
+	FinSi
+FinAlgoritmo

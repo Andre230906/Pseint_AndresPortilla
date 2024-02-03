@@ -1,0 +1,20 @@
+Algoritmo AREADEUNCIRCULO
+	Definir D, R, A, PII, decision Como Real
+	Escribir 'Hallar area de un circulo'
+	Escribir ' Teclea (1) si deseas hallar el area con el radio, Oprime (2) si deseas hallar el area y el radio con el diametro '
+	Leer decision
+	Si decision=1 Entonces
+		Escribir ' ingrese radio del circulo'
+		Leer R
+		A <- (R*R)*3.1416
+		Escribir 'El area de un circulo de radio ', R, ' es igual a:', A
+	SiNo
+		Si decision=2 Entonces
+			Escribir 'ingrese diametro del circulo'
+			Leer D
+			R <- D/2
+			A <- (R*R)*3.1416
+			Escribir 'El area de un circulo de diametro ', D, ' es igual a ', A, ' y cuenta con un radio de ', R
+		FinSi
+	FinSi
+FinAlgoritmo

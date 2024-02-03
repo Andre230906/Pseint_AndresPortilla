@@ -1,0 +1,77 @@
+Algoritmo tienda_zapato
+	ModeloZapato <- caracter
+	Escribir 'Que modelo de zapatos le intresa?'
+	Leer ModeloZapatos
+	Talla <- real
+	Escribir '�Que talla desea?'
+	Leer Talla
+	Escribir 'Verificando la talla'
+	decision <- real
+	Seg�n Talla Hacer
+		34:
+			Escribir 'si esta diposible'
+			Escribir '�Desea continuar con su compra?, digita (1) para si, (2) para no'
+			Leer decision
+			Si decision=1 Entonces
+				Escribir 'Gracias por su compra'
+			SiNo
+				Escribir 'su proceso de compra ha finalizado sin exito '
+			FinSi
+		35:
+			Escribir 'si esta disponible'
+			Escribir '�Desea continuar con su compra?, digita (1) para si, (2) para no'
+			Leer decision
+			Si condicion Entonces
+				Escribir 'Gracias por su compra'
+			SiNo
+				Escribir 'su proceso de compra ha finalizado sin exito '
+			FinSi
+		36:
+			Escribir 'si esta disponible'
+			Escribir '�Desea continuar con su compra?, digita (1) para si, (2) para no'
+			Leer decision
+			Si condicion Entonces
+				Escribir 'Gracias por su compra'
+			SiNo
+				Escribir 'su proceso de compra ha finalizado sin exito '
+			FinSi
+		37:
+			Escribir 'si esta disponible'
+			Escribir '�Desea continuar con su compra?, digita (1) para si, (2) para no'
+			Leer decision
+			Si condicion Entonces
+				Escribir 'Gracias por su compra'
+			SiNo
+				Escribir 'su proceso de compra ha finalizado sin exito '
+			FinSi
+		38:
+			Escribir 'si esta disponible'
+			Escribir '�Desea continuar con su compra?, digita (1) para si, (2) para no'
+			Leer decision
+			Si condicion Entonces
+				Escribir 'Gracias por su compra'
+			SiNo
+				Escribir 'su proceso de compra ha finalizado sin exito '
+			FinSi
+		39:
+			Escribir 'si esta disponible'
+			Escribir '�Desea continuar con su compra?, digita (1) para si, (2) para no'
+			Leer decision
+			Si condicion Entonces
+				Escribir 'Gracias por su compra'
+			SiNo
+				Escribir 'su proceso de compra ha finalizado sin exito '
+			FinSi
+		40:
+			Escribir 'si esta disponible'
+			Escribir '�Desea continuar con su compra?, digita (1) para si, (2) para no'
+			Leer decision
+			Si condicion Entonces
+				Escribir 'Gracias por su compra'
+			SiNo
+				Escribir 'su proceso de compra ha finalizado sin exito '
+			FinSi
+		De Otro Modo:
+			Escribir 'No se encuentra disponible'
+	FinSeg�n
+FinAlgoritmo

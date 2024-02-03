@@ -1,0 +1,8 @@
+Algoritmo CONVERSIONES
+	Definir C,F Como Real
+	Escribir "ingrese la temperatura en grados celsius"
+	Leer C
+	F=(C*9/5)+32
+	 Escribir "La conversion de ",C " grados celsius a fahrenheit es: ",F " grados "
+	
+FinAlgoritmo

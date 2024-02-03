@@ -1,0 +1,19 @@
+Algoritmo DescuentoProducto
+	Definir A como entero 
+	Definir R,T como Real
+	Escribir " ingrese el valor de su producto de 0 a 1000000"
+	Leer A
+	Si A<500000 Entonces
+		Escribir "Tu producto no cuenta con descuento, el total a pagar es : ",A
+	FinSi
+	Si A>500000 y A<1000000 entonces 
+		R=(A*0.1)
+		T=A-(A*0.1)
+		Escribir "El producto de valor ",A " cuenta con un descuento de ",R " por ende el total a pagar es ",T  
+	FinSi
+	Si A>1000000 entonces 
+		R=(A*0.19)
+		T=A-(A*0.19)
+		Escribir "El producto de valor ",A " cuenta con un descuento de ",R " por ende el total a pagar es ",T  
+	finsi
+FinAlgoritmo

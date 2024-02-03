@@ -1,0 +1,18 @@
+Algoritmo positivonegativo
+	Definir A como real
+	Escribir " Ingrese un numero para determinar si es positivo o negativo"
+	leer A
+	
+		
+	Si A=0 entonces 
+		escribir "E numero ingresado no entra en cojunto de positivos o negativos"
+	sino
+	Si A>0  Entonces
+		escribir "El numero es positivo"
+	sino 
+		escribir "el numero es negativo"
+	FinSi
+	Finsi 
+	
+	
+FinAlgoritmo
